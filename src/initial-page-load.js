@@ -1,8 +1,8 @@
 export function initialPageLoad() {
     const contentDiv = document.querySelector('#content')
-    const heading = document.querySelector('h1')
+    const heading = document.createElement('h1')
     heading.textContent = "Welcome to Deadpool's Restaurant"
-    heading.classList.add('landing-page')
+    heading.classList.add('landing-title')
     contentDiv.appendChild(heading)
 
     const topImage = document.createElement('img')
@@ -18,13 +18,13 @@ export function initialPageLoad() {
     contentDiv.appendChild(para1)
 
     const para2 = document.createElement('p')
-    para1.classList.add('landing-page-copy')
-    para1.textContent =
+    para2.classList.add('landing-page-copy')
+    para2.textContent =
         'Attire required for facility is business casual at a minimum, please!'
     contentDiv.appendChild(para2)
 
     const para3 = document.createElement('p')
-    para1.classList.add('landing-page-copy')
-    para1.textContent = 'Thanks, Management'
+    para3.classList.add('landing-page-copy')
+    para3.textContent = 'Thanks, Management'
     contentDiv.appendChild(para3)
 }
