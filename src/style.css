@@ -1,0 +1,25 @@
+body {
+    background-color: brown;
+    color: whitesmoke;
+}
+#content {
+    /* display: flex; */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.top-image {
+    height: 50%;
+    width: 50%;
+}
+
+.landing-page-copy {
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    font-size: italic;
+    font-weight: 900;
+}
