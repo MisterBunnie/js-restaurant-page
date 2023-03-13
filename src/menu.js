@@ -12,7 +12,7 @@ export function menu() {
 
     //DOM for pasta image
     const pastaImage = document.createElement('img')
-    pastaImage.classList.add('image')
+    pastaImage.classList.add('contact-menu-image')
     pastaImage.src = '..src/assets/pasta.jpg'
     pastaImage.alt = 'Pasta Image'
     contentDiv.appendChild(pastaImage)
@@ -25,7 +25,7 @@ export function menu() {
 
     //DOM for glamorous moment
     const glamorousMoment = document.createElement('img')
-    glamorousMoment.classList.add('image')
+    glamorousMoment.classList.add('contact-menu-image')
     glamorousMoment.src = '../src/assets/pasta1.jpg'
     glamorousMoment.alt = 'Glamorous Moment'
     contentDiv.appendChild(glamorousMoment)

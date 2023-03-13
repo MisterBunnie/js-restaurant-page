@@ -1,5 +1,5 @@
 export function contact() {
-    const contentDiv = document.createElement('#content')
+    const contentDiv = document.querySelector('#content')
 
     //Remove any existing DOM children if present
     contentDiv.replaceChildren()
@@ -12,20 +12,20 @@ export function contact() {
 
     //DOM for phone image
     const phoneImage = document.createElement('img')
-    phoneImage.classList.add('img')
+    phoneImage.classList.add('contact-menu-image')
     phoneImage.src = '../src/assets/phone-image.jpg'
     phoneImage.alt = 'Phone Image'
     contentDiv.appendChild(phoneImage)
 
     //DOM for p tag #1 for phone image
     const para1PhoneImage = document.createElement('p')
-    paraContact.classList.add('contact-copy')
-    paraContact.textContent = 'Call us +359 894 52 977'
+    para1PhoneImage.classList.add('contact-copy')
+    para1PhoneImage.textContent = 'Call us on +359 894 52 977'
     contentDiv.appendChild(para1PhoneImage)
 
     //DOM for email image
     const emailImage = document.createElement('img')
-    emailImage.classList.add('image')
+    emailImage.classList.add('contact-menu-image')
     emailImage.src = '../src/assets/email.jpg'
     emailImage.alt = 'Email Image'
     contentDiv.appendChild(emailImage)

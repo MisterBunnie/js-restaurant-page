@@ -11,12 +11,15 @@ body {
     /* justify-content: center; */
 }
 
-.top-image {
-    height: 50%;
-    width: 50%;
+.image,
+.contact-menu-image {
+    height: 40%;
+    width: 40%;
 }
 
-.landing-page-copy .menu-copy .contact-copy {
+.landing-page-copy,
+.menu-copy,
+.contact-copy {
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;

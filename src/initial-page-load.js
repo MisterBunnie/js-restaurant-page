@@ -12,7 +12,7 @@ export function initialPageLoad() {
 
     //DOM for landing page top image
     const topImage = document.createElement('img')
-    topImage.classList.add('top-image')
+    topImage.classList.add('image')
     topImage.src = '../src/assets/deadpool.jpg'
     topImage.alt = 'Image of Restaurant'
     contentDiv.appendChild(topImage)
