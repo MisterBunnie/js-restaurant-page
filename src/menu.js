@@ -12,7 +12,7 @@ export function menu() {
 
     //DOM for pasta image
     const pastaImage = document.createElement('img')
-    pastaImage = classList.add('image')
+    pastaImage.classList.add('image')
     pastaImage.src = '..src/assets/pasta.jpg'
     pastaImage.alt = 'Pasta Image'
     contentDiv.appendChild(pastaImage)
