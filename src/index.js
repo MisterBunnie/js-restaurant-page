@@ -1,4 +1,15 @@
-import * as module from './initial-page-load.js'
+import { initialPageLoad } from './initial-page-load'
 
-console.log('This is my console.log statement from /src/index/js XD!')
-module.initialPageLoad()
+initialPageLoad()
+
+// Tab Switching module
+let tabSwitchingModule = (function () {
+    const homeTab = document.createElement('.home')
+    homeTab.addEventListener('click', initialPageLoad)
+
+    const menuTab = document.createElement('.menu')
+    menuTab.addEventListener('click', menu)
+
+    const contactTab = document.createElement('.contact')
+    contactTab.addEventListener('click', contact)
+})()
