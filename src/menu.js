@@ -13,7 +13,7 @@ export function menu() {
     //DOM for pasta image
     const pastaImage = document.createElement('img')
     pastaImage.classList.add('contact-menu-image')
-    pastaImage.src = '..src/assets/pasta.jpg'
+    pastaImage.src = '../src/assets/pasta2.jpg'
     pastaImage.alt = 'Pasta Image'
     contentDiv.appendChild(pastaImage)
 
